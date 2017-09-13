@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: RobotBlockModel2.ma
-//Last modified: Tue, Sep 12, 2017 10:44:30 PM
+//Last modified: Tue, Sep 12, 2017 10:48:54 PM
 //Codeset: 1252
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -15,13 +15,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "520C0AF6-4253-2E91-99E1-F3BCE198B576";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -6.3006186215937312 1.8460596527479196 11.533273823812003 ;
-	setAttr ".r" -type "double3" 4.4616472793231159 -365.79999999921068 0 ;
+	setAttr ".t" -type "double3" -0.0099480165801333342 8.8128124064531015 19.690150075870765 ;
+	setAttr ".r" -type "double3" -17.738352720677028 -344.1999999992081 8.2636021745189767e-016 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "4A7FD07C-4343-6DAD-F817-84848C7E7BB9";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 10.441270317989799;
+	setAttr ".coi" 20.200525443699032;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
